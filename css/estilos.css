@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font: 400;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+nav h1,
+footer h1 {
+    font-family: 'Coiny', cursive;
+    color: #4A90E2; /* Cambio de color del título */
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #666; /* Cambio de color de enlaces */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+.grande {
+    font-size: 100px;
+    font-family: 'Coiny', cursive;
+}
+
+h1, h2, h3, h4, .item {
+    color: #222;
+}
+
+h2, h3 {
+    font-size: 20px;
+    background-color: #FFAC33; /* Cambio de color de fondo */
+    display: inline;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+.item {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FFAC33; /* Cambio de color de fondo */
+}
+
+aside img {
+    height: auto;
+    width: 50%;
+}
+
+#titulo {
+    font-size: 40px;
+    color: #444;
+}
+
+header.encolumnar, aside.encolumnar {
+    border-bottom: none;
+}
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+footer, main, header, aside {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#imagen {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+span {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 40px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+form {
+    margin: auto;
+}
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+.boton {
+    padding: 0;
+    border-bottom: none;
+}
+
+.boton input {
+    border: none;
+    width: auto;
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+}
+
+ol li {
+    margin-bottom: 6%;
+}
+
+h4 {
+    margin: 0;
+    font-size: 51px;
+    color: white;
+    background-color: #444;
+    line-height: 100px;
+    padding: 10px;
+    display: inline;
+}
+
+footer h1 {
+    font-size: 33px;
+}
+
+section {
+    width: 45%;
+}
+
+main {
+    font-size: 21px;
+}
